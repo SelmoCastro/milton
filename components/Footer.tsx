@@ -22,7 +22,7 @@ export default function Footer() {
                     </div>
 
                     {/* Contact */}
-                    <div id="location">
+                    <div id="location" className="scroll-mt-28">
                         <h4 className="text-white font-bold mb-6">Contato & Localização</h4>
                         <ul className="space-y-4">
                             <li className="flex items-start text-slate-400">

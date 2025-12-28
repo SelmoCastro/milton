@@ -40,13 +40,13 @@ export default function Navbar() {
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
                             {navLinks.map((link) => (
-                                <Link
+                                <a
                                     key={link.name}
                                     href={link.href}
                                     className="text-slate-300 hover:text-amber-500 transition-colors px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     {link.name}
-                                </Link>
+                                </a>
                             ))}
                         </div>
                     </div>
@@ -81,14 +81,14 @@ export default function Navbar() {
                 <div className="md:hidden bg-slate-900 border-b border-slate-800">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         {navLinks.map((link) => (
-                            <Link
+                            <a
                                 key={link.name}
                                 href={link.href}
                                 className="text-slate-300 hover:text-amber-500 block px-3 py-2 rounded-md text-base font-medium"
                                 onClick={() => setIsOpen(false)}
                             >
                                 {link.name}
-                            </Link>
+                            </a>
                         ))}
                         <a
                             href="https://wa.me/+5516981108234"

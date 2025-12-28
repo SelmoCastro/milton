@@ -31,7 +31,7 @@ const combos = [
 
 export default function Combos() {
     return (
-        <section id="combos" className="py-20 bg-slate-900">
+        <section id="combos" className="py-20 bg-slate-900 scroll-mt-28">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Combos Exclusivos</h2>
@@ -77,8 +77,8 @@ export default function Combos() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`block w-full text-center py-3 rounded-xl font-bold transition-colors ${combo.featured
-                                        ? 'bg-amber-500 hover:bg-amber-600 text-slate-950'
-                                        : 'bg-slate-700 hover:bg-slate-600 text-white'
+                                    ? 'bg-amber-500 hover:bg-amber-600 text-slate-950'
+                                    : 'bg-slate-700 hover:bg-slate-600 text-white'
                                     }`}
                             >
                                 Agendar Agora
