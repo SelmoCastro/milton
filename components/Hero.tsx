@@ -21,10 +21,7 @@ export default function Hero() {
             {/* Content */}
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center md:text-left pt-20">
                 <div className="md:max-w-2xl">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700 backdrop-blur-sm mb-6 animate-fade-in-up">
-                        <span className="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
-                        <span className="text-slate-300 text-xs font-semibold uppercase tracking-wider">Aberto Agora em Ribeirão Preto</span>
-                    </div>
+
 
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-tight">
                         Estilo que Define <br />
