@@ -48,9 +48,5 @@ Siga os passos abaixo para baixar e rodar o projeto no seu computador:
 *   **Combos & Serviços:** Tabela de preços clara e destacada.
 *   **Responsivo:** Funciona perfeitamente em celulares e computadores.
 
-## 📦 Deploy (Publicação)
-
-Recomendamos usar a [Vercel](https://vercel.com/) para hospedar este projeto. Basta conectar seu repositório do GitHub e o deploy será automático.
-
 ---
 Desenvolvido por **Selmo Castro**.
