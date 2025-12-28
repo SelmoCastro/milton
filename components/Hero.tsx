@@ -48,7 +48,9 @@ export default function Hero() {
                             Agendar Horário
                         </a>
                         <a
-                            href="#location"
+                            href="https://www.google.com/maps/search/?api=1&query=Av.+Portugal,+1558+Santa+Cruz+do+Jose+Jacques+Ribeirão+Preto+-+SP"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-2 bg-slate-800/50 hover:bg-slate-800 text-white border border-slate-700 px-8 py-4 rounded-full font-semibold text-lg transition-all backdrop-blur-sm"
                         >
                             <MapPin className="w-5 h-5 text-amber-500" />
