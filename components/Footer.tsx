@@ -28,7 +28,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center text-slate-400">
                                 <Phone className="h-5 w-5 text-amber-500 mr-3 flex-shrink-0" />
-                                <a href="https://wa.me/+5516981108234" className="hover:text-white transition-colors">
+                                <a href="https://wa.me/+5516981108234" className="text-slate-400 hover:text-white transition-colors">
                                     (16) 9-8110.8234
                                 </a>
                             </li>

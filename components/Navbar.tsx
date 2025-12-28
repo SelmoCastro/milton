@@ -13,8 +13,8 @@ export default function Navbar() {
         { name: 'Home', href: '#home' },
         { name: 'Serviços', href: '#services' },
         { name: 'Combos', href: '#combos' },
-        { name: 'Galeria', href: '#gallery' },
-        { name: 'Contato', href: '#contact' },
+        { name: 'Depoimentos', href: '#testimonials' },
+        { name: 'Contato', href: '#location' },
     ]
 
     return (
