@@ -73,7 +73,7 @@ export default function Combos() {
                             </ul>
 
                             <a
-                                href="https://wa.me/+5516981108234"
+                                href={`https://wa.me/5516981108234?text=${encodeURIComponent(`Olá, gostaria de agendar: ${combo.name}`)}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`block w-full text-center py-3 rounded-xl font-bold transition-colors ${combo.featured
