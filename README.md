@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Milton's Barber Shop - Website 2.0
 
-## Getting Started
+Este é o repositório oficial do novo website da **Milton's Barber Shop**, desenvolvido para modernizar a presença digital da barbearia, melhorar a performance e aumentar a conversão de agendamentos.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+*   **[Next.js 15](https://nextjs.org/)**: Framework React para produção, garantindo alta performance e SEO otimizado.
+*   **[Tailwind CSS](https://tailwindcss.com/)**: Estilização moderna e responsiva.
+*   **[Lucide React](https://lucide.dev/)**: Ícones leves e elegantes.
+*   **[TypeScript](https://www.typescriptlang.org/)**: Para um código mais seguro e escalar.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Como Rodar o Projeto Localmente
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Siga os passos abaixo para baixar e rodar o projeto no seu computador:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/SelmoCastro/milton.git
+    cd milton
+    ```
 
-## Learn More
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Rode o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Estrutura do Projeto
 
-## Deploy on Vercel
+*   `/app`: Páginas e layouts do Next.js (App Router).
+*   `/components`: Componentes reutilizáveis (Navbar, Hero, Services, etc.).
+*   `/public`: Imagens e ativos estáticos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Funcionalidades
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*   **Design Premium:** Estética "Dark" com detalhes em dourado.
+*   **Agendamento Fácil:** Links diretos para o WhatsApp da barbearia.
+*   **Combos & Serviços:** Tabela de preços clara e destacada.
+*   **Responsivo:** Funciona perfeitamente em celulares e computadores.
+
+## 📦 Deploy (Publicação)
+
+Recomendamos usar a [Vercel](https://vercel.com/) para hospedar este projeto. Basta conectar seu repositório do GitHub e o deploy será automático.
+
+---
+Desenvolvido por **Selmo Castro**.
