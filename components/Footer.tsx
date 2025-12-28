@@ -8,7 +8,14 @@ export default function Footer() {
 
                     {/* Brand */}
                     <div>
-                        <h3 className="text-2xl font-bold text-white mb-4">Milton<span className="text-amber-500">&apos;s</span></h3>
+                        <div className="flex flex-col items-start mb-4 -space-y-1">
+                            <span className="text-5xl text-white font-normal" style={{ fontFamily: 'var(--font-great-vibes)' }}>
+                                Milton&apos;s
+                            </span>
+                            <span className="text-xs tracking-[0.4em] text-amber-500 font-bold pl-1" style={{ fontFamily: 'var(--font-cinzel)' }}>
+                                BARBERSHOP
+                            </span>
+                        </div>
                         <p className="text-slate-400 text-sm leading-relaxed">
                             Tradição e modernidade em cada corte. O ambiente perfeito para o homem que se cuida.
                         </p>

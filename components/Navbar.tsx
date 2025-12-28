@@ -24,12 +24,15 @@ export default function Navbar() {
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center gap-2">
                         <Link href="/" className="flex items-center gap-2">
-                            <div className="bg-amber-500 p-1.5 rounded-lg">
-                                <Scissors className="h-6 w-6 text-slate-950" />
+                            {/* Logo Recreated with Fonts */}
+                            <div className="flex flex-col items-center justify-center -space-y-2">
+                                <span className={`text-4xl text-white font-normal ${'font-great-vibes'}`} style={{ fontFamily: 'var(--font-great-vibes)' }}>
+                                    Milton&apos;s
+                                </span>
+                                <span className={`text-[10px] tracking-[0.3em] text-amber-500 font-bold ${'font-cinzel'}`} style={{ fontFamily: 'var(--font-cinzel)' }}>
+                                    BARBERSHOP
+                                </span>
                             </div>
-                            <span className="text-2xl font-bold text-white tracking-tight">
-                                Milton<span className="text-amber-500">&apos;s</span>
-                            </span>
                         </Link>
                     </div>
 
